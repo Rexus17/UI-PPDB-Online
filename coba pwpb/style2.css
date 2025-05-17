@@ -1,0 +1,68 @@
+body {
+	color: purple;
+	background-image: url("bahan/concrete-texture.png");
+}
+
+h1 {
+	color: lavender;
+	text-align: center;
+	background: linear-gradient(180deg,purple,grey,purple);
+}
+
+h3 {
+	text-align: center;
+	text-shadow: 2px 4px 6px salmon;
+}
+
+
+
+.container1	{
+	width: 900px;
+	margin: 10px auto;
+	border: 5px solid black;
+}
+
+
+.kotak1	{
+	color: green;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: lavender;
+	transition: all 3s ease-in;;
+}
+
+.container1:hover .kotak1	{
+	transform: rotate(720deg);
+	margin-left: 800px;
+	background-color: royalblue;
+}
+
+
+
+.container2	{
+	width: 900px;
+	margin: 10px auto;
+	border: 5px solid black;
+}
+
+
+.kotak2	{
+	color: lightgreen;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: royalblue;
+	transition: 1s;
+}
+
+.container2:hover .kotak2	{
+	transform: rotate(720deg);
+	margin-left: 800px;
+	background-color: lavender;
+}
+
+
+
